@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
@@ -176,4 +176,243 @@
    left: 0;
    border-top: 4px solid #F38281;
    width: calc(100% - 200px);
+}
+
+
+
+
+.page-description {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 42px;
+}
+
+.paragraph-reuse {
+   margin-top: 42px;
+}
+.paragraph-reuse p {
+   height: 80px;
+   font-family: 'Kaushan Script', sans-serif;
+   font-size: 30px;
+   font-weight: 400;
+   text-align: center;
+}
+.paragraph-reuse h3 {
+   height: 81px;
+   font-family: Raleway, sans-serif;
+   font-size: 36px;
+   font-weight: 900;
+   text-align: center;
+   text-transform: uppercase;
+}
+.paragraph-reuse::after {
+   content: '';
+   width: 170px;
+   border-bottom: 4px solid #F38281;
+   display: block;
+   margin: 0 auto;
+}
+
+.story-about-us h4 {
+   height: 118px;
+   font-family: Raleway, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   text-align: center;
+   padding-top: 38px;
+   margin-bottom: 58px;
+   
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+
+.services-description {
+   height: 498px;
+   display: flex;
+   flex-flow: row  wrap;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+
+.services-description div {
+   width: 370px;
+   height: 130px;
+   margin-right: 39px;
+   padding-left: 125px;
+   position: relative;
+}
+.services-description .photography::before {
+   content: '';
+   position: absolute;
+   z-index: 4;
+   height: 70px;
+   width: 70px;
+   left: 34px;
+   top: -20px;
+   background: no-repeat url("/img/icon-1.png");
+}
+
+.services-description .web-design::before {
+   content: '';
+   position: absolute;
+   z-index: 4;
+   height: 70px;
+   width: 70px;
+   left: 34px;
+   top: -20px;
+   background: no-repeat url("/img/icon-2.png");
+}
+.services-description .creativity::before {
+   content: '';
+   position: absolute;
+   z-index: 4;
+   height: 70px;
+   width: 70px;
+   left: 34px;
+   top: -20px;
+   background: no-repeat url("/img/icon-3.png");
+}
+.services-description .seo::before {
+   content: '';
+   position: absolute;
+   z-index: 4;
+   height: 70px;
+   width: 70px;
+   left: 34px;
+   top: -20px;
+   background: no-repeat url("/img/icon-4.png");
+}
+.services-description .css-html::before {
+   content: '';
+   position: absolute;
+   z-index: 4;
+   height: 70px;
+   width: 70px;
+   left: 34px;
+   top: -20px;
+   background: no-repeat url("/img/icon-5.png");
+}
+.services-description .digital::before {
+   content: '';
+   position: absolute;
+   z-index: 4;
+   height: 70px;
+   width: 70px;
+   left: 34px;
+   top: -20px;
+   background: no-repeat url("/img/icon-6.png");
+}
+.services-description div p {
+   font-family: Raleway, sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   text-align: left;
+   text-transform: uppercase;
+   height: 51px;
+   
+}
+.services-description div h4 {
+   height: 80px;
+   font-family: Raleway, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   text-align: left;
+
+}
+/* попытка всё сверстать самостоятельно не удалась, но я пыталась */
+/* .block {
+   height: 338px;
+   width: 370px;
+   background: #95E1D3;
+   position: relative;
+}
+
+.block::after {
+   content: '';
+   position: absolute;
+   z-index: 2;
+   bottom: 16px;
+   right: 16px;
+   height: 338px;
+   width: 370px;
+   background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+
+
+.block::before {
+   content: '';
+   position: absolute;
+   z-index: 3;
+   background-image: url("/img/Group.png");
+   background-image: no-repeat;
+   height: 37px;
+   width: 31px;
+   top: 169px;
+   left: 185px;
+   transform:translate(-50%,-50%);
+} */
+
+.container {
+   margin-bottom: 108px;
+}
+
+
+.numbers-text {
+   display: flex;
+   justify-content: center;
+   background: #95E1D3;
+   height: 250px;
+   
+}
+
+.numbers-text div {
+   width: 234px;
+   border-left: 1px solid #FFFFFF;
+   border-right: 1px solid #FFFFFF;
+   color: #FFFFFF;
+}
+
+.numbers-text p {
+   font-family: Raleway, sans-serif;
+   font-size: 64px;
+   font-weight: 700;
+   text-align: center;
+   margin-top: 70px;
+}
+.numbers-text h3 {
+font-family: Raleway, sans-serif;
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+
+}
+
+.mountain-page {
+   height: 868px;
+   background: url(/img/mountain-bg.png);
+   background-size: cover;
+   position: relative;
+}
+.mountain-page::before {
+   position: absolute;
+   content:'';
+   background: rgba(255, 255, 255, 0.8);
+   height: 100%;
+   width: 100%;
+   z-index: 1;
+}
+
+.mountain-page .paragraph-reuse {
+   position: relative;
+   z-index: 3;
+   padding-top: 24px;
+   margin-top: 0;
 }
